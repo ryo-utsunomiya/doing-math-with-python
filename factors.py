@@ -9,7 +9,7 @@ def factors(b):
     return ret
 
 
-if __name__ == '__main__':
+def main():
     b = float(input('Your Number Please: '))
 
     if b <= 0 or (not b.is_integer()):
@@ -18,3 +18,7 @@ if __name__ == '__main__':
 
     for i in factors(int(b)):
         print(i)
+
+
+if __name__ == '__main__':
+    main()
